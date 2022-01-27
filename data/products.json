@@ -76,7 +76,7 @@
             }]
         },
         {
-            "id" : "Comidas",
+            "id" : "Postres",
             "icon" : "restaurant.png",
             "content" : [
             {
@@ -113,7 +113,7 @@
             }]
         },
         {
-            "id" : "Comidas",
+            "id" : "Bebidas",
             "icon" : "restaurant.png",
             "content" : [
             {
