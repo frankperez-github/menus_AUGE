@@ -1,0 +1,156 @@
+{
+    "Products" : [
+        {
+            "id" : "Entradas",
+            "icon" : "restaurant.png",
+            "content" : [
+            {
+                "image" : "Quiche de salmón y puerros.png",
+                "name" : "Quiche de salmón y puerros",
+                "description" : "Mezcla de puerros y salmon ahumado, amen de los huevos y la leche evaporada, la hace irresistible, por su agradable sabor y textura",
+                "price" : "50.00"
+            },
+    
+            {
+                "image" : "Dip de espinacas y alcachofas.png",
+                "name" : "Dip de espinacas y alcachofas",
+                "description" :"Salsa cremosita elaborada a base de alcachofa con espinaca ideal para acompañar botanas",
+                "price" : "60.00"
+            },
+    
+            {
+                "image" : "platter-of-mexican-street-tacos-with-carne-asada-chorizo-and-al-pastor-in-corn-tortillas(1).png",
+                "name" : "Tacos",
+                "description" :"Orden de 4 tacos, elige entre pastor, chorizo, bistek o tripas",
+                "price" : "70.00"
+            },
+            {
+                "image" : "Quiche de salmón y puerros.png",
+                "name" : "Quiche de salmón y puerros",
+                "description" : "Mezcla de puerros y salmon ahumado, amen de los huevos y la leche evaporada, la hace irresistible, por su agradable sabor y textura",
+                "price" : "50.00"
+            },
+            {
+                "image" : "Quiche de salmón y puerros.png",
+                "name" : "Quiche de salmón y puerros",
+                "description" : "Mezcla de puerros y salmon ahumado, amen de los huevos y la leche evaporada, la hace irresistible, por su agradable sabor y textura",
+                "price" : "50.00"
+            }]
+        },
+    
+         {
+            "id" : "Comidas",
+            "icon" : "restaurant.png",
+            "content" : [
+            {
+                "image" : "Quiche de salmón y puerros.png",
+                "name" : "Quiche de salmón y puerros",
+                "description" : "Mezcla de puerros y salmon ahumado, amen de los huevos y la leche evaporada, la hace irresistible, por su agradable sabor y textura",
+                "price" : "50.00"
+            },
+    
+            {
+                "image" : "Dip de espinacas y alcachofas.png",
+                "name" : "Dip de espinacas y alcachofas",
+                "description" :"Salsa cremosita elaborada a base de alcachofa con espinaca ideal para acompañar botanas",
+                "price" : "60.00"
+            },
+    
+            {
+                "image" : "platter-of-mexican-street-tacos-with-carne-asada-chorizo-and-al-pastor-in-corn-tortillas(1).png",
+                "name" : "Tacos",
+                "description" :"Orden de 4 tacos, elige entre pastor, chorizo, bistek o tripas",
+                "price" : "70.00"
+            },
+            {
+                "image" : "Quiche de salmón y puerros.png",
+                "name" : "Quiche de salmón y puerros",
+                "description" : "Mezcla de puerros y salmon ahumado, amen de los huevos y la leche evaporada, la hace irresistible, por su agradable sabor y textura",
+                "price" : "50.00"
+            },
+            {
+                "image" : "Quiche de salmón y puerros.png",
+                "name" : "Quiche de salmón y puerros",
+                "description" : "Mezcla de puerros y salmon ahumado, amen de los huevos y la leche evaporada, la hace irresistible, por su agradable sabor y textura",
+                "price" : "50.00"
+            }]
+        },
+        {
+            "id" : "Comidas",
+            "icon" : "restaurant.png",
+            "content" : [
+            {
+                "image" : "Quiche de salmón y puerros.png",
+                "name" : "Quiche de salmón y puerros",
+                "description" : "Mezcla de puerros y salmon ahumado, amen de los huevos y la leche evaporada, la hace irresistible, por su agradable sabor y textura",
+                "price" : "50.00"
+            },
+    
+            {
+                "image" : "Dip de espinacas y alcachofas.png",
+                "name" : "Dip de espinacas y alcachofas",
+                "description" :"Salsa cremosita elaborada a base de alcachofa con espinaca ideal para acompañar botanas",
+                "price" : "60.00"
+            },
+    
+            {
+                "image" : "platter-of-mexican-street-tacos-with-carne-asada-chorizo-and-al-pastor-in-corn-tortillas(1).png",
+                "name" : "Tacos",
+                "description" :"Orden de 4 tacos, elige entre pastor, chorizo, bistek o tripas",
+                "price" : "70.00"
+            },
+            {
+                "image" : "Quiche de salmón y puerros.png",
+                "name" : "Quiche de salmón y puerros",
+                "description" : "Mezcla de puerros y salmon ahumado, amen de los huevos y la leche evaporada, la hace irresistible, por su agradable sabor y textura",
+                "price" : "50.00"
+            },
+            {
+                "image" : "Quiche de salmón y puerros.png",
+                "name" : "Quiche de salmón y puerros",
+                "description" : "Mezcla de puerros y salmon ahumado, amen de los huevos y la leche evaporada, la hace irresistible, por su agradable sabor y textura",
+                "price" : "50.00"
+            }]
+        },
+        {
+            "id" : "Comidas",
+            "icon" : "restaurant.png",
+            "content" : [
+            {
+                "image" : "Quiche de salmón y puerros.png",
+                "name" : "Quiche de salmón y puerros",
+                "description" : "Mezcla de puerros y salmon ahumado, amen de los huevos y la leche evaporada, la hace irresistible, por su agradable sabor y textura",
+                "price" : "50.00"
+            },
+    
+            {
+                "image" : "Dip de espinacas y alcachofas.png",
+                "name" : "Dip de espinacas y alcachofas",
+                "description" :"Salsa cremosita elaborada a base de alcachofa con espinaca ideal para acompañar botanas",
+                "price" : "60.00"
+            },
+    
+            {
+                "image" : "platter-of-mexican-street-tacos-with-carne-asada-chorizo-and-al-pastor-in-corn-tortillas(1).png",
+                "name" : "Tacos",
+                "description" :"Orden de 4 tacos, elige entre pastor, chorizo, bistek o tripas",
+                "price" : "70.00"
+            },
+            {
+                "image" : "Quiche de salmón y puerros.png",
+                "name" : "Quiche de salmón y puerros",
+                "description" : "Mezcla de puerros y salmon ahumado, amen de los huevos y la leche evaporada, la hace irresistible, por su agradable sabor y textura",
+                "price" : "50.00"
+            },
+            {
+                "image" : "Quiche de salmón y puerros.png",
+                "name" : "Quiche de salmón y puerros",
+                "description" : "Mezcla de puerros y salmon ahumado, amen de los huevos y la leche evaporada, la hace irresistible, por su agradable sabor y textura",
+                "price" : "50.00"
+            }]
+        }
+        
+        
+    ]
+    
+}

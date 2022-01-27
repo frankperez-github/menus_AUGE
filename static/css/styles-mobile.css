@@ -1,0 +1,194 @@
+@media (max-width:500px) {
+    
+    /*General*/
+    p,h1,h2,h3,a{
+        color: white;
+    }
+    h1{
+        font-size: 29.5px;
+    }
+    p, a{
+        font-size: 13px;
+    }
+
+    /*Header*/
+    .container-page{
+        margin: 0;
+        color: white;
+        max-width: 100%;
+        padding: 0 3%;
+        background-color: #f3f3f3;
+    }
+    .PrincipalLogo{
+        width: 65%;
+        margin: 4% 0;
+        margin-top: 3%;
+    }
+    .OrderImg{
+        width: 90%;
+        padding: 10% !important;
+        padding-right: 0% !important;
+    }
+    .OrderImg img{
+        width: 70%;
+    }
+    .Cart{
+        left: 87%;
+        top: 2%;
+        width: 10%;
+    }
+    .NumberOfItems{
+        width: 37%;
+        margin-top: -10%;
+        font-size: 10px;
+        padding-left: 10%;
+        padding-bottom: 1% !important;
+        margin-left: -40%;
+    }
+    .HeaderImage{
+        height: 23vh;
+        border-radius: 0;
+    }
+
+    /*Main*/
+    .ContactRow{
+        display: block;
+    }
+    .ContactCard img{
+        width: 6%;
+        margin-top: 0.2%;
+    }
+    .ContactLink p{
+        width: 100%;
+        margin-top: 0.5%;
+    }
+    .ContactCard{
+        width: 100%;
+        margin-bottom: 0%;
+        margin-top: 0.5%;
+        margin-left: 0;
+    }
+    .ContactCard p{
+        margin-top: 0.5%;
+    }
+    .OrderButton {
+        padding: 2.5% 16%;
+    }
+    .FiltersRow{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .FiltersRow h2{
+        font-size: 13px;
+        margin: 0;
+        margin-top: 1%;
+        padding: 0;
+    }
+    .SearchBar input{
+        width: 100%;
+        margin: 3% 0;
+        padding: 2% 9%;
+    }
+    .LupaImg{
+        width: 4%;
+        margin-left: 92%;
+        margin-top: -10.7%;
+        margin-bottom: 12%;
+    }
+    .ProductRow h1 {
+        font-size: 25px;
+      }
+    .ProductsList{
+        flex-direction: column;
+    }
+    .PartialFood{
+        width: 99%;
+        margin: 0 0.5%;
+        margin-bottom: 10%;
+    }
+    .PrductCard{
+        margin-bottom: 5%;
+    }
+    .ProductInfo p{
+        font-size: 12px;
+    }
+    .ProductInfo h2{
+        font-size: 15px;
+    }
+
+    /*Footer*/
+    .UnderLine{
+        display: block;
+        text-align: center;
+        padding: 3% 0;
+        width: 110%;
+        margin-left: -5%;
+    }
+    .FooterLogo{
+        width: 60%;
+        margin-left: 23%;
+        margin-top: 2%;
+    }
+    .OverLine{
+        display: block;
+    }
+    .LeftFoot{
+        padding-top: 0.5%;
+    }
+    .LeftFoot h1{
+        width: 100%;
+        font-size: 25px;
+    }
+    .LeftFoot p{
+        margin-top: -5%;
+        margin-bottom: 10%;
+    }
+    .CenterFoot{
+        width: 60%;
+        margin-bottom: -25%;
+    }
+    .CenterFoot h1,p{
+        margin: 0;
+        margin-left: -7%;
+        margin-bottom: 2%;
+    }
+    .CenterFoot h1{
+        margin-top: 7%;
+    }
+    .RightFoot{
+        margin-left: 80%;
+        margin-right: -5%;
+    }
+
+}
+
+@media (width:320px) {
+    p{
+        font-size: 12px;
+    }
+    .FiltersRow h2{
+        font-size: 12px;
+    }
+    .ProductTitle{
+        font-size: 25px !important;
+    }
+    .ContactCard img{
+        margin-top: 1.5%;
+        width: 5%;
+    }
+    .OrderImg {
+        width: 24%;
+    }
+    .Cart{
+        width: 45%;
+        right: -24%;
+        margin: 3%;
+    }
+    .NumberOfItems{
+        width: 10%;
+        margin-top: 2%;
+        font-size: 10px;
+        padding-left: 2%;
+        padding-bottom: 15% !important;
+    }
+}

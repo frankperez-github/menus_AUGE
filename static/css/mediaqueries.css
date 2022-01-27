@@ -1,0 +1,227 @@
+@media (width:768px) {
+    
+    .NumberOfItems{
+        font-size: 10px;
+        height: 26%;
+    }
+    .PrincipalLogo{
+        padding-top: 0.3%;
+    }
+    .HeaderImage{
+        height: 35vh;
+    }
+    .ContactCard p{
+        font-size: 10px;
+        margin-top: -0.5%;
+    }
+    .FiltersRow{
+        width: 100%;
+    }
+    .FiltersRow h2 {
+        font-size: 13px;
+    }
+    .LupaImg{
+        margin-top: -4.4%;
+        margin-bottom: 0;
+    }
+    .ProductCard p{
+        font-size: 12px;
+    }
+    .ProductCard h2{
+        font-size: 13px;
+    }
+    .OrderButton{
+        font-size: 13px;
+    }
+    .LeftFoot h1{
+        margin-left: -5%;
+        margin-top: 40%;
+        font-size: 19px;
+    }
+    .RightFoot{
+        margin-top: -8%;
+        margin-right: -8%;
+    }
+    .LeftFoot p{
+        font-size: 17px;
+    }
+    .CenterFoot p{
+        font-size: 10px;
+    }
+    .CenterFoot{
+        margin-right: 23%;
+        margin-top: 0%;
+    }
+    .CenterFoot h1{
+        font-size: 20px;
+    }
+    .UnderLine{
+        padding-bottom: 1%;
+    }
+    .UnderLine a{
+        font-size: 10px;
+    }
+}
+
+@media (width:1024px){
+    .NumberOfItems{
+        font-size: 12px;
+    }
+    .HeaderImage{
+        height: 40vh;
+    }
+    .ContactCard p{
+        font-size: 14px;
+    }
+    .FiltersRow{
+        width: 100%;
+    }
+    .FiltersRow h2 {
+        font-size: 18px;
+    }
+    .LupaImg{
+        margin-top: -4%;
+    }
+    .LeftFoot h1{
+        font-size: 24px;
+    }
+    .CenterFoot{
+        width: 30%;
+        margin-right: 13%;
+    }
+}
+
+@media (width:1080px) {
+    
+    .NumberOfItems{
+        font-size: 12px;
+    }
+    .HeaderImage{
+        height: 40vh;
+    }
+    .ContactCard p{
+        font-size: 14px;
+    }
+    .FiltersRow{
+        width: 100%;
+    }
+    .FiltersRow h2 {
+        font-size: 18px;
+    }
+    .LupaImg{
+        margin-top: -4%;
+    }
+    .LeftFoot h1{
+        font-size: 24px;
+    }
+    .CenterFoot{
+        width: 30%;
+        margin-right: 13%;
+    }
+}
+
+@media (width:1200px) {
+    .container-page{
+        padding: 0 20%;
+    }
+}
+
+@media (min-width:1920px) {
+    #FallBackShare h1{
+        font-size: 35px;
+    }
+    #FallBackShare h3{
+        font-size: 25px;
+        margin-top: 12%;
+    }
+    #LinkInput{
+        font-size: 25px;
+    }
+    .NumberOfItems{
+        font-size: 20px;
+    }
+    .HeaderImage{
+        height: 70vh;
+    }
+    .ContactCard p{
+        font-size: 20px;
+    }
+    .SearchBar{
+        margin-bottom: 2.5%;
+    }
+    .FiltersRow{
+        width: 100%;
+    }
+    .FiltersRow h2 {
+        font-size: 18px;
+    }
+    .LupaImg{
+        width: 1.5%;
+        margin-top: -3.2%;
+    }
+    .LeftFoot{
+        margin-left: 0;
+    }
+    .LeftFoot h1{
+        font-size: 30px;
+    }
+    .CenterFoot{
+        width: 30%;
+        margin-right: 11.5%;
+    }
+}
+
+@media (min-width:2500px) {
+    .PrincipalLogo{
+        padding: 0.5% 0;
+    }
+    .NumberOfItems{
+        font-size: 25px;
+        padding-top: 1%;
+        padding-left: 3.2%;
+    }
+    .FiltersRow h2 {
+        font-size: 23px;
+    }
+    .ProductRow h1 {
+        font-size: 40px;
+    }
+    .LupaImg{
+        width: 1.4%;
+        margin-top: -3.2%;
+        margin-left: 97.5%;
+    }
+    .SearchBar input{
+        font-size: 20px;
+        margin-bottom: 1%;
+        border-radius: 40px;
+    }
+    .ProductCard p{
+        font-size: 20px;
+    }
+    .ProductCard h2{
+        font-size: 25px;
+    }
+    .OrderButton{
+        font-size: 25px;
+    }
+    .LeftFoot h1{
+        margin-top: 33%;
+        font-size: 37px;
+    }
+    .RightFoot{
+        margin-top: 2%;
+    }
+    .LeftFoot p{
+        font-size: 25px;
+    }
+    .CenterFoot p{
+        font-size: 20px;
+    }
+    .UnderLine{
+        padding-bottom: 1%;
+    }
+    .UnderLine a{
+        font-size: 20px;
+    }
+}

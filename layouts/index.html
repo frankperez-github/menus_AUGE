@@ -1,0 +1,72 @@
+{{define "main"}}
+
+    <main>
+        
+        <div class="FiltersRow">
+            <div class="FiltersDiv SelectedFilter" id="Todo" >
+                <img id="TodoIcon" class=" SelectedFilterIcon" src="{{.Site.BaseURL}}restaurant.png" alt="">
+                <h2 >Todo</h2>
+            </div>
+            {{range .Site.Data.products.Products}}
+                <div class="FiltersDiv " id={{.id}}>
+                <img src="{{.Site.BaseURL}}{{.icon}}" alt="">
+                    <h2 class="PartialsTitle">{{.id}}</h2>
+                </div>
+            {{end}}
+        </div>
+
+        <div class="SearchBar">
+            <input class="inputSearch" type="search" placeholder="Buscar" id="inputSearch">
+            <img id="Lupa" class="LupaImg" src="{{.Site.BaseURL}}lupa.svg" alt="">
+        </div>
+        
+        
+        {{range .Site.Data.products.Products}}
+            <div class="ProductRow" id={{.id}}>
+                <h1>{{.id}}</h1>
+                <div class="ProductsList">
+
+                    {{range .content}}
+
+                        <div class="PartialFood" id={{.name}}>
+                            {{partial "ProductCard.html" .}}
+                        </div>
+
+                    {{end}}
+                    
+                </div>
+                
+            </div>
+        {{end}}
+        
+        <div id="FallBackShare">
+
+            <h2 id="CloseShare">X</h2>
+            
+            <h1>Compartir</h1>
+            
+            <div class="ShareIcons">
+                <div class="ShareLink">
+                    <img src="{{.Site.BaseURL}}Facebook_share.svg" alt=""> 
+                    <h3>Facebook</h3>
+                </div>
+                <div class="ShareLink">
+                    <img src="{{.Site.BaseURL}}Twitter_share.svg" alt="">
+                    <h3>Twitter</h3>
+                </div>
+            </div>
+
+            <div class="clipboardCopy">
+                <input type="text"  id="LinkInput">
+                <img id="copyButton" src="{{.Site.BaseURL}}clipboard.svg" alt="Copy">
+            </div>
+        </div>
+
+        <div id="Blur">
+        </div>
+
+
+    </main>
+
+
+{{end}}

@@ -1,0 +1,48 @@
+<div class="footer">
+
+
+	<div class="OverLine">
+
+		<div class="LeftFoot">
+			<h1>¡Gracias por su preferencia!</h1>
+			<p>¡Vuelva Pronto!</p>
+		</div>
+		
+		<div class="CenterFoot">
+			<h1>Horarios</h1>
+			{{range .Site.Data.schedule}}
+
+			<p>Lunes {{ .OpenMonday}} - {{ .CloseMonday}}</p>
+			<p>Martes {{ .OpenTuesday}} - {{ .CloseTuesday}}</p>
+			<p>Miercoles {{ .OpenWednesday}} - {{ .CloseWednesday}}</p>
+			<p>Jueves {{ .OpenThursday}} - {{ .CloseThursday}}</p>
+			<p>Viernes {{ .OpenFriday}} - {{ .CloseFriday}}</p>
+			<p>Sabado {{ .OpenSaturday}} - {{ .CloseSaturday}}</p>
+			<p>Domingo {{ .OpenSunday}} - {{ .CloseSunday}}</p>
+			
+			{{end}}
+		</div>
+	
+		<div class="RightFoot">
+			<div class="qrCode">
+				<img src="{{ .Site.BaseURL }}download.png" alt="qr">
+			</div>
+		</div>
+
+	</div>
+
+	<div class="UnderLine">
+
+		<a href="#">&#64; {{ now.Year }} Auge CRM S.A.S de C.V.</a>
+
+		<div class="FooterLogo">
+
+			<img src="{{ .Site.BaseURL }}auge-menu-logo-alt.svg" alt="logo">
+
+		</div>
+
+		<a href="#">Términos y Condiciones de Uso</a>
+		
+	</div>
+
+</div>

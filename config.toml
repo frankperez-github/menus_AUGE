@@ -1,0 +1,4 @@
+baseURL = "https://menus-en-auge.vercel.app/"
+languageCode = "es"
+title = "Menus en AUGE"
+theme = "tale"

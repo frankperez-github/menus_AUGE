@@ -1,0 +1,20 @@
+{
+    "Schedule": 
+    {
+        "OpenMonday" : "10:00",
+        "OpenTuesday" : "10:00",
+        "OpenWednesday" : "10:00",
+        "OpenThursday" : "10:00",
+        "OpenFriday" : "10:00",
+        "OpenSaturday" : "10:00",
+        "OpenSunday": "12:00 ",
+        "CloseMonday" : "20:00",
+        "CloseTuesday" : "20:00",
+        "CloseWednesday" : "20:00",
+        "CloseThursday" : "20:00",
+        "CloseFriday" : "20:00",
+        "CloseSaturday" : "20:00",
+        "CloseSunday": "18:00"
+    }
+
+}

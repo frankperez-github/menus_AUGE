@@ -1,0 +1,25 @@
+
+    <div class="ProductCard">
+
+        <img class="ProductImage" src="{{.Site.BaseURL}}{{.image}}" alt="pizza"></img>
+
+        <div class="ProductInfo">
+
+            <img id={{.name}} class="ShareButton" src="{{.Site.BaseURL}}share-alt-solid.svg" alt=""></img>
+
+            <h2>{{.name}}</h2>
+
+            <p>{{.description}}</p>
+
+
+            <div class="PriceRow">
+
+                <button class="OrderButton">Pedir</button>
+                
+                <h2>${{.price}}</h2>
+
+            </div>
+
+        </div>
+
+    </div>

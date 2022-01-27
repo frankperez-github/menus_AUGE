@@ -1,0 +1,23 @@
+
+
+<html lang="{{ .Site.LanguageCode | default "es" }}">
+    {{ partial "head.html" . }}
+    <body>
+
+        <div class="container-page">
+            {{ partial "header.html" . }}
+            {{ block "main" . }}{{ end }}
+
+        </div>
+
+        {{ partial "footer.html" . }}
+        
+
+
+        <!-- Import main.js and pass products as params -->
+        {{ $js := resources.Get "js/main.js"  }}
+        <script type="module" src={{ $js.Permalink }}></script>
+
+        
+    </body>
+</html>
